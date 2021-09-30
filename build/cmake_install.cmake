@@ -1,8 +1,8 @@
-# Install script for directory: C:/Pessoal/UnB/PI2/hello_world
+# Install script for directory: C:/Users/bruno/Documents/GitHub/andromeda-firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/hello-world")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/andromeda_main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Pessoal/UnB/PI2/hello_world/build/esp-idf/cmake_install.cmake")
+  include("C:/Users/bruno/Documents/GitHub/andromeda-firmware/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Pessoal/UnB/PI2/hello_world/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/bruno/Documents/GitHub/andromeda-firmware/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

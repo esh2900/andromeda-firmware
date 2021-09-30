@@ -1,11 +1,30 @@
+//Bibliotecas Padrão C
+#include <stdint.h>
+#include <string.h>
+#include <stdbool.h>
 #include <stdio.h>
+
+//Bibliotecas IDF
+#include "driver/uart.h"
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_system.h"
 #include "esp_spi_flash.h"
+#include "esp_bt.h"
+#include "nvs_flash.h"
+#include "esp_bt_device.h"
+#include "esp_gap_ble_api.h"
+#include "esp_gattc_api.h"
+#include "esp_gatt_defs.h"
+#include "esp_bt_main.h"
+#include "esp_gatt_common_api.h"
+#include "esp_log.h"
+
+//Bibliotecas Próprias
 #include "acel.h"
 #include "mag.h"
+#include "ble.h"
 
 void app_main(void){
     printf("Hello world!\n");

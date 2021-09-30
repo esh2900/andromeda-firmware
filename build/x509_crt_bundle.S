@@ -1,4 +1,4 @@
-/* * Data converted from C:/Pessoal/UnB/PI2/hello_world/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Users/bruno/Documents/GitHub/andromeda-firmware/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

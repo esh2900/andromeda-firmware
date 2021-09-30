@@ -15,7 +15,7 @@ double Declination(double lat, double _long,double alt, int day,int month, int y
 //recebe os parametros de posição e do acelerômetro
 double azimut(double h_xmag,double h_ymag, double lat, double _long,double alt, int day,int month, int year){
     double azim=atan(h_ymag/h_xmag)+Declination(lat,_long,alt,day,month,year);
-    return azimut
+    return azim;
 }
 
 

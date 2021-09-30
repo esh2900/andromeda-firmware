@@ -1,8 +1,8 @@
-# Install script for directory: C:/Pessoal/UnB/PI2/hello_world/main
+# Install script for directory: C:/Users/bruno/Documents/GitHub/andromeda-firmware/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/hello-world")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/andromeda_main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Pessoal/UnB/PI2/hello_world/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
+  include("C:/Users/bruno/Documents/GitHub/andromeda-firmware/build/bootloader/esp-idf/soc/esp32/cmake_install.cmake")
 
 endif()
 
