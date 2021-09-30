@@ -552,8 +552,7 @@ void uart_task(void *pvParameters)
     vTaskDelete(NULL);
 }
 
-static void spp_uart_init(void)
-{
+static void spp_uart_init(void){
     uart_config_t uart_config = {
         .baud_rate = 115200,
         .data_bits = UART_DATA_8_BITS,
