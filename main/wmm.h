@@ -506,6 +506,4 @@ void MAG_PrintUserDataWithUncertainty(MAGtype_GeoMagneticElements GeomagElements
 void MAG_GetDeg(char* Query_String, double* latitude, double bounds[2]);
 int MAG_GetAltitude(char* Query_String, MAGtype_Geoid *Geoid, MAGtype_CoordGeodetic* coords, int bounds[2], int AltitudeSetting);
 
-
-
 #endif /*GEOMAGHEADER_H*/

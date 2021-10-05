@@ -18,7 +18,4 @@ double azimut(double h_xmag,double h_ymag, double lat, double _long,double alt, 
     return azim;
 }
 
-
-
-
 #endif
