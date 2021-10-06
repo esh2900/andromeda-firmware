@@ -1,18 +1,3 @@
-/*	WMM Subroutine library was tested in the following environments
- *
- *	1. Red Hat Linux  with GCC Compiler
- *	2. MS Windows XP with CodeGear C++ compiler
- *	3. Sun Solaris with GCC Compiler
- *
- *
- *      Revision Number: $Revision: 1437 $
- *      Last changed by: $Author: awoods $
- *      Last changed on: $Date: 2016-03-01 10:49:40 -0700 (Tue, 01 Mar 2016) $
- *
- *
- */
-
-
 #ifndef _POSIX_C_SOURCE
 #define _POSIX_C_SOURCE
 #endif
