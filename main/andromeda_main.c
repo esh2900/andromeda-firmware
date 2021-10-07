@@ -1,8 +1,12 @@
 //Bibliotecas Padrão C
+#include <stdio.h>
 #include <stdint.h>
 #include <string.h>
 #include <stdbool.h>
-#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <assert.h>
 
 //Bibliotecas IDF
 #include "driver/uart.h"

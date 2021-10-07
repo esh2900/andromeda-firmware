@@ -1,7 +1,6 @@
 #ifndef MAGNETOMETRO_H
 #define MAGNETOMETRO_H
 
-#include <math.h>
 #include "wmm.h"
 #include "EGM9615.h"
 
