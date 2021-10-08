@@ -19,7 +19,7 @@
 #include "nvs_flash.h"
 #include "esp_bt_device.h"
 #include "esp_gap_ble_api.h"
-#include "esp_gattc_api.h"
+#include "esp_gattc_api.h" 
 #include "esp_gatt_defs.h"
 #include "esp_bt_main.h"
 #include "esp_gatt_common_api.h"
@@ -29,10 +29,13 @@
 #include "acel.h"
 #include "mag.h"
 #include "ble.h"
+#include "gps.h"
+#include "DM860.h"
+//#include "A4988.h"
+
 
 void app_main(void){
     printf("Hello world!\n");
-
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);

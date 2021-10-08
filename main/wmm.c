@@ -3935,6 +3935,10 @@ void MAG_WMMErrorCalc(double H, MAGtype_GeoMagneticElements *Uncertainty)
      }
 }
 
+double Get_declination(MAGtype_GeoMagneticElements GeomagElements){
+    return GeomagElements.Decl;
+}/*Get_declination*/
+
 void MAG_PrintUserDataWithUncertainty(MAGtype_GeoMagneticElements GeomagElements,
         MAGtype_GeoMagneticElements Errors,
         MAGtype_CoordGeodetic SpaceInput,

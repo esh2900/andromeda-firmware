@@ -479,7 +479,7 @@ int MAG_GetGeoidHeight(double Latitude, double Longitude, double *DeltaHeight, M
  */
 
 void MAG_EquivalentLatLon(double lat, double lon, double *repairedLat, double  *repairedLon);
-
+double Get_declination(MAGtype_GeoMagneticElements GeomagElements);
 void MAG_WMMErrorCalc(double H, MAGtype_GeoMagneticElements *Uncertainty);
 void MAG_PrintUserDataWithUncertainty(MAGtype_GeoMagneticElements GeomagElements,
         MAGtype_GeoMagneticElements Errors,
