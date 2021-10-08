@@ -29,7 +29,6 @@
 #include "acel.h"
 #include "mag.h"
 #include "ble.h"
-#include "gps.h"
 #include "DM860.h"
 //#include "A4988.h"
 
