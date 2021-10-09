@@ -26,6 +26,7 @@
 #include "esp_log.h"
 
 //Bibliotecas Próprias
+#include "gps.h"
 #include "acel.h"
 #include "mag.h"
 #include "ble.h"
