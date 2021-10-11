@@ -38,3 +38,13 @@ Para simular o comportamento dos drivers e dos motores de passo, foi feita uma s
 Além disso os arquivos da simulação também estão no repositório
 
 [Arquivos Simulação](https://github.com/esh2900/andromeda-firmware/blob/main/Simulacao%20do%20Driver%20Proteus.rar?raw=true)
+
+## Teste do Sistema de Controle
+
+Por fim, foram desenvolvidas também algumas funções para determinar o tempo de envio dos sinais PWM aos drivers, e a direção de rotação mais curta.
+
+![Teste 1 Sistema de Controle](Media/controle-exemplo1.png "Algoritmo de Controle")
+
+![Teste 2 Sistema de Controle](Media/controle-exemplo2.png "Algoritmo de Controle")
+
+A primeira variável presente no trio de infromações de cada motor representa o sentido da rotação(horario/anti-horario), o segundo valor é a quantidade de passos que serão necessários para realizar a movimentação, e por fim, o tempo(em segundos) que será necessário manter os motores acionados para chegar na posição indicada.

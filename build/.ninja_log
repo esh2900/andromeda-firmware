@@ -1362,3 +1362,15 @@
 96	203	6553260689590003	bootloader/bootloader.elf	9cdefc067381ac7
 96	203	6553260689590003	bootloader/bootloader.bin	9cdefc067381ac7
 96	203	6553260689590003	bootloader/bootloader.map	9cdefc067381ac7
+8	21399	6556821891511427	build.ninja	2aaf473af4067f6f
+99	984	6553260689590003	bootloader-prefix/src/bootloader-stamp/bootloader-build	9cdefc067381ac7
+99	984	6553260689590003	bootloader/bootloader.elf	9cdefc067381ac7
+99	984	6553260689590003	bootloader/bootloader.bin	9cdefc067381ac7
+99	984	6553260689590003	bootloader/bootloader.map	9cdefc067381ac7
+106	1728	6556821910276262	esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj	50c84f3a2a87bb88
+1729	2543	6556821918447027	esp-idf/app_update/libapp_update.a	b9066cad4f443358
+2544	4981	6556821942825623	esp-idf/main/CMakeFiles/__idf_main.dir/andromeda_main.c.obj	96401cef67e7ed83
+4982	5419	6556821947209653	esp-idf/main/libmain.a	efb5c708cf6a1acc
+5420	17853	6556822071248363	esp-idf/esp32/ld/esp32.project.ld	da1c567e7b0bca6b
+17853	28204	6556822174791148	andromeda_main.elf	bb064028b40c57f2
+28204	29725	6556822189985247	.bin_timestamp	41f56cc5bbadbce9

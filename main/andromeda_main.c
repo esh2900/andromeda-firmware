@@ -30,12 +30,63 @@
 #include "acel.h"
 #include "mag.h"
 #include "ble.h"
-#include "DM860.h"
+//#include "DM860.h"
 //#include "A4988.h"
 
+//Funções de Controle
+#define Step_size 0.1125 //graus
+#define Step_time 0.01 //s
+
+
+struct estado{ //estado do sistema
+    double alt; //altitue
+    double azim; //azimute
+};
+
+struct motor{
+  bool dir;//sentido(true-horário)/false(anti-horário)
+  int n_steps;//número de passos
+  double act_time;//tempo de ativção do sinal
+};
+
+double mmod(double a,double n){
+  return a - floor(a/n) * n;
+}
+
+void set_move(double coord_atual,double coord_alvo, struct motor *Nema ){
+double a=coord_alvo-coord_atual;
+double turn_angle=mmod(a+180.0,360.0)-180;
+if(turn_angle > 0){
+  Nema->dir=true;
+  
+}
+else{
+  Nema->dir=false;
+}
+
+Nema->n_steps=abs(turn_angle)/Step_size;
+Nema->act_time=Nema->n_steps * Step_time;
+
+return;
+}
 
 void app_main(void){
-    printf("Hello world!\n");
+    struct estado estado_atual,estado_alvo;
+    struct motor Nema17,Nema34;//azim(17)/alt(34)
+
+    //Informações genéricas para teste
+
+    //Estado retirado da leitura dos sesnores
+    estado_atual.alt= 12.5;
+    estado_atual.azim=58.8;
+
+    //posição de um corpo qualquer
+    estado_alvo.alt=47.6;
+    estado_alvo.azim=123.3;
+
+    set_move(estado_atual.alt,estado_alvo.alt, &Nema34);
+    set_move(estado_atual.azim,estado_alvo.azim, &Nema17);
+
     /* Print chip information */
     esp_chip_info_t chip_info;
     esp_chip_info(&chip_info);
