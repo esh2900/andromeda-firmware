@@ -47,4 +47,4 @@ Por fim, foram desenvolvidas também algumas funções para determinar o tempo d
 
 ![Teste 2 Sistema de Controle](Media/controle-exemplo2.png "Algoritmo de Controle")
 
-A primeira variável presente no trio de infromações de cada motor representa o sentido da rotação(horario/anti-horario), o segundo valor é a quantidade de passos que serão necessários para realizar a movimentação, e por fim, o tempo(em segundos) que será necessário manter os motores acionados para chegar na posição indicada.
+A primeira variável presente no trio de informações de cada motor representa o sentido da rotação(horario/anti-horario), o segundo valor é a quantidade de passos que serão necessários para realizar a movimentação, e por fim, o tempo(em segundos) que será necessário manter os motores acionados para chegar na posição indicada.
