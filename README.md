@@ -25,3 +25,16 @@ Para demonstrar o funcionamento, foi usado como exemplo as coordenadas do campus
 ![Teste 1 WMM](Media/wmm_test1.png "Teste 1")
 
 ![Teste 2 WMM](Media/wmm_test2.png "Teste 2")
+
+Além disso é possível testar esse subsistema com os arquivos presentes na pasta de destes do próprio repositório
+
+
+## Teste dos Drivers e dos Motores de Passo
+
+Para simular o comportamento dos drivers e dos motores de passo, foi feita uma simulação computacional utilizando o software Protheus. A apresentação do funcionamento do sistema pode ser acessada em:
+
+[Teste dos Drivers](https://github.com/esh2900/andromeda-firmware/blob/main/Media/drivers.mp4?raw=true)
+
+Além disso os arquivos da simulação também estão no repositório
+
+[Arquivos Simulação](https://github.com/esh2900/andromeda-firmware/blob/main/Simulacao_do_Driver_Proteus.rar)
